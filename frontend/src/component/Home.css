@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+  padding: 20px;
+}
+
+/* Workout list container (green circled part) */
+.workouts {
+  flex: 3; /* Increased from 2 to 3 */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form container (red arrow part) */
+.create {
+  flex: 1; /* This remains fine */
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content; /* Make height shrink to content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Max width to prevent form from stretching on large screens */
+.create {
+  max-width: 320px;
+}

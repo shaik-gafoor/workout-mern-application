@@ -1,0 +1,28 @@
+.workout-details {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  text-align: left;
+}
+
+.workout-details h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.workout-details p {
+  margin: 5px 0;
+}
+
+.workout {
+  width: 90%; /* Ensures it fills available space */
+  max-width: 750px; /* Adjust based on your preference */
+}
+/* WorkoutDetails.css */
+span {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
